@@ -2,11 +2,8 @@
 <manifest>
 
     <!-- Remove from default.xml -->
-    <remove-project name="platform/compatibility/cdd"/>
     <remove-project name="platform/cts"/>
 
-    <remove-project name="platform/external/abi-compliance-checker"/>
-    <remove-project name="platform/external/abi-dumper"/>
     <remove-project name="platform/external/adt-infra"/>
     <remove-project name="platform/external/android-clat"/>
     <remove-project name="platform/external/androidplot"/>
@@ -19,7 +16,6 @@
     <remove-project name="platform/external/archive-patcher"/>
     <remove-project name="platform/external/arm-neon-tests"/>
     <remove-project name="platform/external/autotest"/>
-    <remove-project name="platform/external/bart"/>
     <remove-project name="platform/external/blktrace"/>
     <remove-project name="platform/external/caliper"/>
     <remove-project name="platform/external/cblas"/>
@@ -31,9 +27,7 @@
     <remove-project name="platform/external/dagger2"/>
     <remove-project name="platform/external/deqp"/>
     <remove-project name="platform/external/desugar"/>
-    <remove-project name="platform/external/devlib"/>
     <remove-project name="platform/external/dexmaker"/>
-    <remove-project name="platform/external/dhcpcd-6.8.2"/>
     <remove-project name="platform/external/dng_sdk"/>
     <remove-project name="platform/external/dnsmasq"/>
     <remove-project name="platform/external/doclava"/>
@@ -42,23 +36,18 @@
     <remove-project name="platform/external/drrickorang"/>
     <remove-project name="platform/external/easymock"/>
     <remove-project name="platform/external/emma"/>
-    <remove-project name="platform/external/esd"/>
-    <remove-project name="platform/external/eyes-free"/>
     <remove-project name="platform/external/fdlibm"/>
-    <remove-project name="platform/external/fio"/>
     <remove-project name="platform/external/flatbuffers"/>
     <remove-project name="platform/external/fonttools"/>
     <remove-project name="platform/external/fsck_msdos"/>
     <remove-project name="platform/external/gemmlowp"/>
     <remove-project name="platform/external/giflib"/>
     <remove-project name="platform/external/glide"/>
-    <remove-project name="platform/external/google-api-services-storage"/>
     <remove-project name="platform/external/google-breakpad"/>
     <remove-project name="platform/external/google-fonts/carrois-gothic-sc"/>
     <remove-project name="platform/external/google-fonts/coming-soon"/>
     <remove-project name="platform/external/google-fonts/cutive-mono"/>
     <remove-project name="platform/external/google-fonts/dancing-script"/>
-    <remove-project name="platform/external/google-tv-pairing-protocol"/>
     <remove-project name="platform/external/guava"/>
     <remove-project name="platform/external/guice"/>
     <remove-project name="platform/external/hamcrest"/>
@@ -74,11 +63,9 @@
     <remove-project name="platform/external/jacoco"/>
     <remove-project name="platform/external/jarjar"/>
     <remove-project name="platform/external/javasqlite"/>
-    <remove-project name="platform/external/javassist"/>
     <remove-project name="platform/external/jcommander"/>
     <remove-project name="platform/external/jdiff"/>
     <remove-project name="platform/external/jline"/>
-    <remove-project name="platform/external/jmdns"/>
     <remove-project name="platform/external/jsilver"/>
     <remove-project name="platform/external/jsmn"/>
     <remove-project name="platform/external/jsoncpp"/>
@@ -91,19 +78,15 @@
     <remove-project name="platform/external/libavc"/>
     <remove-project name="platform/external/libbackup"/>
     <remove-project name="platform/external/libcap-ng"/>
-    <remove-project name="platform/external/libconstrainedcrypto"/>
     <remove-project name="platform/external/libcups"/>
     <remove-project name="platform/external/libdaemon"/>
     <remove-project name="platform/external/libdivsufsort"/>
-    <remove-project name="platform/external/libedit"/>
     <remove-project name="platform/external/libese"/>
     <remove-project name="platform/external/libexif"/>
     <remove-project name="platform/external/libgsm"/>
     <remove-project name="platform/external/libhevc"/>
     <remove-project name="platform/external/libjpeg-turbo"/>
     <remove-project name="platform/external/libldac"/>
-    <remove-project name="platform/external/libmicrohttpd"/>
-    <remove-project name="platform/external/libmojo"/>
     <remove-project name="platform/external/libmpeg2"/>
     <remove-project name="platform/external/libmtp"/>
     <remove-project name="platform/external/libogg"/>
@@ -113,18 +96,15 @@
     <remove-project name="platform/external/libtextclassifier"/>
     <remove-project name="platform/external/libusb"/>
     <remove-project name="platform/external/libusb-compat"/>
-    <remove-project name="platform/external/libvncserver"/>
     <remove-project name="platform/external/libvpx"/>
     <remove-project name="platform/external/libvterm"/>
     <remove-project name="platform/external/libyuv"/>
     <remove-project name="platform/external/linux-kselftest"/>
-    <remove-project name="platform/external/lisa"/>
     <remove-project name="platform/external/lmfit"/>
     <remove-project name="platform/external/ltp"/>
     <remove-project name="platform/external/markdown"/>
     <remove-project name="platform/external/mesa3d"/>
     <remove-project name="platform/external/Microsoft-GSL"/>
-    <remove-project name="platform/external/mmc-utils"/>
     <remove-project name="platform/external/mockftpserver"/>
     <remove-project name="platform/external/mockito"/>
     <remove-project name="platform/external/mockwebserver"/>
@@ -133,7 +113,6 @@
     <remove-project name="platform/external/nanohttpd"/>
     <remove-project name="platform/external/nanopb-c"/>
     <remove-project name="platform/external/naver-fonts"/>
-    <remove-project name="platform/external/netcat"/>
     <remove-project name="platform/external/neven"/>
     <remove-project name="platform/external/nfacct"/>
     <remove-project name="platform/external/nist-pkits"/>
@@ -158,7 +137,6 @@
     <remove-project name="platform/external/seccomp-tests"/>
     <remove-project name="platform/external/sfntly"/>
     <remove-project name="platform/external/shflags"/>
-    <remove-project name="android_external_skia"/>
     <remove-project name="platform/external/sl4a"/>
     <remove-project name="platform/external/slf4j"/>
     <remove-project name="platform/external/smali"/>
@@ -169,15 +147,11 @@
     <remove-project name="platform/external/sqlite"/>
     <remove-project name="platform/external/stressapptest"/>
     <remove-project name="platform/external/swiftshader"/>
-    <remove-project name="platform/external/syslinux"/>
     <remove-project name="platform/external/tagsoup"/>
     <remove-project name="platform/external/tcpdump"/>
     <remove-project name="platform/external/testng"/>
-    <remove-project name="platform/external/timezonepicker-support"/>
     <remove-project name="platform/external/tinyxml"/>
     <remove-project name="platform/external/toolchain-utils"/>
-    <remove-project name="platform/external/tpm2"/>
-    <remove-project name="platform/external/trappy"/>
     <remove-project name="platform/external/tremolo"/>
     <remove-project name="platform/external/unicode"/>
     <remove-project name="platform/external/universal-tween-engine"/>
@@ -192,8 +166,6 @@
     <remove-project name="platform/external/webrtc"/>
     <remove-project name="platform/external/wpa_supplicant_8"/>
     <remove-project name="platform/external/wycheproof"/>
-    <remove-project name="platform/external/x264"/>
-    <remove-project name="platform/external/xmlrpcpp"/>
     <remove-project name="platform/external/xmp_toolkit"/>
     <remove-project name="platform/external/zopfli"/>
     <remove-project name="platform/external/zxing"/>
@@ -209,19 +181,13 @@
     <remove-project name="platform/frameworks/opt/chips"/>
     <remove-project name="platform/frameworks/opt/colorpicker"/>
     <remove-project name="platform/frameworks/opt/datetimepicker"/>
-    <remove-project name="platform/frameworks/opt/inputconnectioncommon"/>
-    <remove-project name="platform/frameworks/opt/inputmethodcommon"/>
     <remove-project name="platform/frameworks/opt/net/ethernet"/>
-    <remove-project name="platform/frameworks/opt/net/lowpan"/>
     <remove-project name="platform/frameworks/opt/net/voip"/>
     <remove-project name="platform/frameworks/opt/photoviewer"/>
     <remove-project name="platform/frameworks/opt/timezonepicker"/>
     <remove-project name="platform/frameworks/opt/vcard"/>
-    <remove-project name="platform/frameworks/support"/>
-    <remove-project name="platform/frameworks/data-binding"/>
     <remove-project name="platform/frameworks/wilhelm"/>
 
-    <remove-project name="platform/hardware/akm"/>
     <remove-project name="platform/hardware/broadcom/libbt"/>
     <remove-project name="platform/hardware/broadcom/wlan"/>
     <remove-project name="platform/hardware/google/av"/>
@@ -238,7 +204,6 @@
     <remove-project name="platform/packages/apps/CertInstaller"/>
     <remove-project name="platform/packages/apps/DevCamera"/>
     <remove-project name="platform/packages/apps/Email"/>
-    <remove-project name="platform/packages/apps/ExactCalculator"/>
     <remove-project name="platform/packages/apps/HTMLViewer"/>
     <remove-project name="platform/packages/apps/KeyChain"/>
     <remove-project name="platform/packages/apps/LegacyCamera"/>
@@ -252,7 +217,6 @@
     <remove-project name="platform/packages/apps/SoundRecorder"/>
     <remove-project name="platform/packages/apps/SpareParts"/>
     <remove-project name="platform/packages/apps/StorageManager"/>
-    <remove-project name="android_packages_apps_Tag"/>
     <remove-project name="platform/packages/apps/Terminal"/>
     <remove-project name="platform/packages/apps/Test/connectivity"/>
     <remove-project name="platform/packages/apps/TimeZoneData"/>
@@ -261,9 +225,6 @@
     <remove-project name="platform/packages/apps/TvSettings"/>
     <remove-project name="platform/packages/apps/TV"/>
     <remove-project name="platform/packages/apps/UnifiedEmail"/>
-    <remove-project name="platform/packages/apps/WallpaperPicker"/>
-    <remove-project name="platform/packages/experimental"/>
-    <remove-project name="platform/packages/inputmethods/OpenWnn"/>
     <remove-project name="platform/packages/providers/ApplicationsProvider"/>
     <remove-project name="platform/packages/providers/BlockedNumberProvider"/>
     <remove-project name="platform/packages/providers/BookmarkProvider"/>
@@ -277,7 +238,6 @@
     <remove-project name="platform/packages/providers/UserDictionaryProvider"/>
     <remove-project name="platform/packages/screensavers/Basic"/>
     <remove-project name="platform/packages/screensavers/PhotoTable"/>
-    <remove-project name="platform/packages/screensavers/WebView"/>
     <remove-project name="platform/packages/apps/Car/Dialer"/>
     <remove-project name="platform/packages/apps/Car/Hvac"/>
     <remove-project name="platform/packages/apps/Car/LatinIME"/>
@@ -294,7 +254,6 @@
     <remove-project name="platform/packages/services/BuiltInPrintService"/>
     <remove-project name="platform/packages/services/Car"/>
     <remove-project name="platform/packages/services/Mms"/>
-    <remove-project name="platform/packages/services/NetworkRecommendation"/>
     <remove-project name="platform/packages/wallpapers/LivePicker"/>
 
     <remove-project name="platform/pdk"/>
@@ -308,7 +267,6 @@
     <remove-project name="platform/prebuilts/checkstyle"/>
     <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>
     <remove-project name="platform/prebuilts/devtools"/>
-    <remove-project name="platform/prebuilts/deqp"/>
     <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9"/>
     <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9"/>
     <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1"/>
@@ -320,7 +278,6 @@
     <remove-project name="platform/prebuilts/gdb/linux-x86"/>
     <remove-project name="platform/prebuilts/go/darwin-x86"/>
     <remove-project name="platform/prebuilts/gradle-plugin"/>
-    <remove-project name="platform/prebuilts/libs/libedit"/>
     <remove-project name="platform/prebuilts/maven_repo/android"/>
     <remove-project name="platform/prebuilts/maven_repo/bumptech"/>
     <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5"/>
@@ -333,7 +290,6 @@
     <remove-project name="platform/system/chre"/>
     <remove-project name="platform/system/libufdt"/>
     <remove-project name="platform/system/nvram"/>
-    <remove-project name="platform/system/tpm"/>
 
     <!-- Remove platform/test/vts to avoid the test errors and more dependencies -->
     <remove-project name="platform/test/framework"/>
@@ -370,7 +326,6 @@
 
 
     <!-- Remove from omni-aosp.xml (forked AOSP) -->
-    <remove-project name="android_development"/>
 
     <remove-project name="android_external_aac"/>
 
@@ -378,31 +333,19 @@
     <remove-project name="android_frameworks_opt_net_wifi"/>
     <remove-project name="android_frameworks_opt_telephony"/>
 
-    <remove-project name="android_hardware_invensense"/>
-    <remove-project name="android_hardware_qcom_audio"/>
-    <remove-project name="android_hardware_qcom_bt"/>
-    <remove-project name="android_hardware_qcom_display"/>
-    <remove-project name="android_hardware_qcom_media"/>
-    <remove-project name="android_hardware_qcom_msm8998"/>
-    <remove-project name="android_hardware_qcom_power"/>
-    <remove-project name="android_hardware_qcom_wlan"/>
-
     <remove-project name="android_packages_apps_Bluetooth"/>
     <remove-project name="android_packages_apps_Calendar"/>
     <remove-project name="android_packages_apps_CellBroadcastReceiver"/>
     <remove-project name="android_packages_apps_Contacts"/>
     <remove-project name="android_packages_apps_Dialer"/>
-    <remove-project name="android_packages_apps_EmergencyInfo"/>
     <remove-project name="android_packages_apps_Launcher3"/>
     <remove-project name="android_packages_apps_Gallery2"/>
     <remove-project name="android_packages_apps_Messaging"/>
     <remove-project name="android_packages_apps_MusicFX"/>
     <remove-project name="android_packages_apps_Nfc"/>
-    <remove-project name="android_packages_apps_OmniBrain"/>
     <remove-project name="android_packages_apps_OmniLib"/>
     <remove-project name="android_packages_apps_PhoneCommon"/>
     <remove-project name="android_packages_apps_Settings"/>
-    <remove-project name="android_packages_apps_Stk"/>
     <remove-project name="android_packages_inputmethods_LatinIME"/>
     <remove-project name="android_packages_providers_DownloadProvider"/>
     <remove-project name="android_packages_services_Telecomm"/>
@@ -422,7 +365,6 @@
 
     <!-- Remove from omni-default.xml (OmniROM Projects) -->
     <remove-project name="android_packages_apps_Matlog"/>
-    <remove-project name="android_packages_apps_MonthCalendarWidget"/>
     <remove-project name="android_packages_apps_OmniChange"/>
     <remove-project name="android_packages_apps_OmniClock"/>
     <remove-project name="android_packages_apps_OmniGears"/>
